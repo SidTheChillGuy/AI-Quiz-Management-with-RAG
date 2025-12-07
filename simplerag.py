@@ -1,5 +1,5 @@
 # import dependencies
-import os, shutil
+import os, shutil, torch
 from dotenv import load_dotenv
 from langchain_chroma import Chroma
 from langchain_classic import hub
@@ -8,7 +8,6 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import gradio as gr
-import torch
 from transformers import AutoModelForCausalLM, AutoProcessor
 from PIL import Image
 from pdf2image import convert_from_path
