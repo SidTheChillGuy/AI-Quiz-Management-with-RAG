@@ -1,0 +1,9 @@
+langchain-google-genai
+langchain-classic
+langchain
+langchain-chroma
+langchainhub
+dotenv
+torch
+transformers
+pillow
